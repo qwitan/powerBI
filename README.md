@@ -5,12 +5,14 @@ https://app.powerbi.com/groups/me/reports/28c56f3f-bfa3-468c-b306-767301a99612/R
 _________________________________________________________________________________________________________________________________________________________
 
 # Data Source: Yahoo Finance
-
 -----------------------------
+
 
 # For the Candle Sticks: 
 process: search for any ticker -> click on 'Historical Data' -> filter based on your needs -> right click download and copy link address.
+
 https://query1.finance.yahoo.com/v7/finance/download/NFLX?period1=1633046400&period2=1648771200&interval=1wk&events=history&includeAdjustedClose=true
+
 a) in PowerBI go to 'Get Data' and click on 'Web' to insert link
 b) to make the link dynamic
 - (StockQuote as text) as table => 
